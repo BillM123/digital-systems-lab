@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/bill/projects/project2/PartA/lab_project_2_partA.sim/sim_1/synth/timing/xsim/baud_controller_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baud_controller
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/bill/projects/project2/PartA/verilog/baud_controller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baud_controller_tb

@@ -1,0 +1,24 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/bill/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot baud_controller_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.baud_controller_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+WARNING: [XSIM 43-3918] Unable to determine HDL language type of design hierarchy in SDF. Returning without back annotation.
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.FDCE_default
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT6
+Compiling module xil_defaultlib.baud_controller
+Compiling module xil_defaultlib.baud_controller_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot baud_controller_tb_time_synth

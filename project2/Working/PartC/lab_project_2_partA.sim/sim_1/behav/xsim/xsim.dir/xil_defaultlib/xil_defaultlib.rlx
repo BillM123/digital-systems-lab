@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/bill/projects/project2/PartC/lab_project_2_partA.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+/home/bill/projects/project2/PartC/verilog/baud_controller.v,1730741211,verilog,,/home/bill/projects/project2/PartC/verilog/uart_receiver.v,,baud_controller,,,,,,,,
+/home/bill/projects/project2/PartC/verilog/uart_receiver.v,1731274911,verilog,,/home/bill/projects/project2/PartC/verilog/uart_receiver_tb.v,,uart_receiver,,,,,,,,
+/home/bill/projects/project2/PartC/verilog/uart_receiver_tb.v,1730741542,verilog,,,,uart_receiver_tb,,,,,,,,

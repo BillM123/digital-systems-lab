@@ -1,0 +1,12 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/bill/projects/project2/PartD/lab_project_2_partA.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+/home/bill/projects/project2/PartD/verilog/baud_controller.v,1730741211,verilog,,/home/bill/projects/project2/PartD/verilog/uart_channel.v,,baud_controller,,,,,,,,
+/home/bill/projects/project2/PartD/verilog/uart_channel.v,1730850777,verilog,,/home/bill/projects/project2/PartD/verilog/uart_receiver.v,,uart_channel,,,,,,,,
+/home/bill/projects/project2/PartD/verilog/uart_channel_tb.v,1730969985,verilog,,,,uart_channel_tb,,,,,,,,
+/home/bill/projects/project2/PartD/verilog/uart_receiver.v,1731274911,verilog,,/home/bill/projects/project2/PartD/verilog/uart_transmitter.v,,uart_receiver,,,,,,,,
+/home/bill/projects/project2/PartD/verilog/uart_transmitter.v,1731274911,verilog,,/home/bill/projects/project2/PartD/verilog/uart_channel_tb.v,,uart_transmitter,,,,,,,,
+/home/bill/projects/project2/Working/verilog/uart_receiver_tb.v,1730741542,verilog,,,,uart_receiver_tb,,,,,,,,
+/home/bill/projects/project2/Working/verilog/uart_transmitter_tb.v,1730321605,verilog,,,,uart_transmitter_tb,,,,,,,,

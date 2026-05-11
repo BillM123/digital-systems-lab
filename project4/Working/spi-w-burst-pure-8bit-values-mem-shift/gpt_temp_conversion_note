@@ -1,0 +1,35 @@
+In Verilog, to multiply a number by 0.0650.065 using shifting operations, you need to approximate 0.0650.065 as a fraction of powers of 2, because shifting operations work with powers of 2.
+Step-by-step approach:
+
+    First, express 0.0650.065 as a fraction of powers of 2. Since 0.065≈115.38460.065≈15.38461​, we can try to approximate this value with a fixed-point representation.
+
+    Use a suitable scaling factor to represent the value. We can approximate 0.0650.065 by multiplying by a power of 2 (say 28=25628=256) and then dividing by the same power of 2.
+        Multiply 0.0650.065 by 256256:
+    0.065×256=16.64≈16
+    0.065×256=16.64≈16
+
+    So we can approximate 0.0650.065 as 1625625616​.
+
+    Now, multiplying by 0.0650.065 can be approximated by:
+    a×0.065≈a×16256
+    a×0.065≈256a×16​
+
+    To perform this in Verilog using bit shifts:
+        Multiply aa by 1616 (which is 2424, so you can shift left by 4).
+        Then divide by 256256 (which is 2828, so you can shift right by 8).
+
+Verilog implementation:
+
+module multiply_by_065 (
+    input [31:0] a,     // Input value (32-bit)
+    output [31:0] result // Output result (32-bit)
+);
+    assign result = (a << 4) >> 8;  // Multiply by 16 and then divide by 256
+endmodule
+
+Explanation:
+
+    a << 4: Shifts the input a left by 4 bits, which is equivalent to multiplying by 1616.
+    (a << 4) >> 8: Then shifts the result right by 8 bits, which is equivalent to dividing by 256256.
+
+This operation approximates multiplying aa by 0.0650.065. While this isn't exact due to the approximation of 0.0650.065 as 1625625616​, it should be sufficiently accurate for most practical purposes when using integer values.

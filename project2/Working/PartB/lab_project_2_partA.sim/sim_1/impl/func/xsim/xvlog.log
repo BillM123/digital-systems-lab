@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/bill/projects/project2/Working/lab_project_2_partA.sim/sim_1/impl/func/xsim/uart_transmitter_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_transmitter
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/bill/projects/project2/Working/verilog/uart_transmitter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_transmitter_tb

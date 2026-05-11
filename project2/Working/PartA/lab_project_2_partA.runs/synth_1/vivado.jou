@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Nov 11 23:28:56 2024
+# Process ID: 313
+# Current directory: /home/bill/projects/project2/PartA/lab_project_2_partA.runs/synth_1
+# Command line: vivado -log baud_controller.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source baud_controller.tcl
+# Log file: /home/bill/projects/project2/PartA/lab_project_2_partA.runs/synth_1/baud_controller.vds
+# Journal file: /home/bill/projects/project2/PartA/lab_project_2_partA.runs/synth_1/vivado.jou
+# Running On        :master0
+# Platform          :unknown
+# Operating System  :unknown
+# Processor Detail  :AMD Ryzen 9 5950X 16-Core Processor
+# CPU Frequency     :3591.760 MHz
+# CPU Physical cores:16
+# CPU Logical cores :32
+# Host memory       :33547 MB
+# Swap memory       :34359 MB
+# Total Virtual     :67907 MB
+# Available Virtual :56320 MB
+#-----------------------------------------------------------
+source baud_controller.tcl -notrace

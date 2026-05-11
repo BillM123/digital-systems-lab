@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/bill/projects/project2/PartD/lab_project_2_partA.sim/sim_1/synth/func/xsim/uart_channel_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baud_controller
+INFO: [VRFC 10-311] analyzing module baud_controller_0
+INFO: [VRFC 10-311] analyzing module uart_channel
+INFO: [VRFC 10-311] analyzing module uart_receiver
+INFO: [VRFC 10-311] analyzing module uart_transmitter
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/bill/projects/project2/PartD/verilog/uart_channel_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_channel_tb

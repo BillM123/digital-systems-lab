@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/bill/projects/project2/PartC/verilog/baud_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baud_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/bill/projects/project2/PartC/verilog/uart_receiver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_receiver
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/bill/projects/project2/PartC/verilog/uart_receiver_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_receiver_tb
